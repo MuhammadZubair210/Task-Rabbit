@@ -1,0 +1,168 @@
+
+body{
+    background-image: url("https://d31ebqhycylygn.cloudfront.net/v3/assets/web/hero_groceries-ba7154fde71c6fa17ace6db2b41f4455.jpg");     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding:0px;
+    height: 100vh;
+}
+
+.card{
+    margin:0 auto;
+    width:500px;
+} 
+
+ img{
+    width:252px;
+} 
+
+.myclass{
+    width:500px;
+    margin:0 auto;
+    height: 469px;
+    border-radius: 4px;
+}
+
+button{
+        margin: 10px 0px;
+        cursor: pointer;
+        font-weight: 300;
+}
+
+.btn1{
+    background-color: #3B5998;
+    border-color: #3B5998;
+    width:100%;
+    color: white;
+    padding: 0.5em 1.38em 0.5em;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    /* font-weight: normal; */
+    border: 1px solid #b1b9c3;
+}
+
+.btn2{
+    background-color: #D73D32;
+    border-color: #D73D32;
+    width:100%;
+    color: white;
+    padding: 0.5em 1.38em 0.5em;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    border: 1px solid #b1b9c3;
+}
+
+body{
+    background-image: url("https://d31ebqhycylygn.cloudfront.net/v3/assets/web/hero_groceries-ba7154fde71c6fa17ace6db2b41f4455.jpg")
+}
+.myclass{
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.seconddiv{
+    margin-left:31px;
+}
+
+.end{
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    line-height: 55px;
+}
+
+p{
+    font-weight: 300;
+}
+
+ .inner{
+    width:434px;
+} 
+
+.btnl{
+  width:206.14px;
+  height:50px;
+  font-size: 1.25rem;
+}
+.btns{
+  width:206.14px;
+  height:50px;
+  float:right;
+  font-size: 1.25rem;
+
+}
+
+.top{
+    margin-top:6px
+}
+
+@media only screen and (max-width: 500px){
+body{
+    transition: opacity .3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.myclass{
+    width: 50%;
+    position: relative;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+    top:0;
+    height: 630px;
+    margin-top: -25px;
+}
+}
+
+@media only screen and (max-width: 430px) {
+    img , .inner{
+    width:350px;
+}
+    .btn-outline-success{
+    width:100%;
+}
+}
+
+
+@media only screen and (max-width: 330px) {
+    .btn-outline-success{
+    width:100%;
+}
+
+img , .inner{
+    width:300px;
+}
+.top{
+    margin-top:0px;
+}
+}
+
+@media only screen and (max-width: 212px) {
+img , .inner{
+    width: 150px;
+}
+    .btn-outline-success{
+    width:100%;
+}
+}
+
+@media only screen and (max-width: 300px) {
+    img , .inner{
+        width:200px   
+    }
+        .btn-outline-success{
+    width:100%;
+}
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}

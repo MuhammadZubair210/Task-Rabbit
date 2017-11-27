@@ -1,0 +1,301 @@
+body{
+    background-color: ghostwhite;
+    width:100%;
+    height:100%;
+}
+.card{
+    background-color: ghostwhite;
+}
+
+.userimg{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.row [class^='col-'].col--centered, .row [class*=' col-'].col--centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    padding-top: 2%
+}
+
+.dashboard__get-started-title , h3 , .separate{
+    display:inline;
+}
+
+span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+.dashboard__get-started-icon {
+    background-color: #67727e;
+    font-size: 1.25em;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 43px;
+    font-weight: 600;
+    color: white;
+    margin-top: 7px;
+     float: left; 
+    margin-right: 3%;
+}
+
+a{
+      /* background-image: url("https://res.cloudinary.com/taskrabbit-com/image/upload/v1489003789/lgdyskvi4chfsliqrgta.jpg");   */
+}
+
+.card-block:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.card-block{
+    width: 110%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    margin: 0px;
+    padding:0px;
+
+}
+.block1{
+        margin-left: -59px;
+}
+.block2{
+      margin-left: -31px;
+}
+
+.row2{
+        margin-top: 1.5%;
+}
+
+.card-title{
+    margin: 9% 5%;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* .bottom{
+     padding-top: 58%;     
+} */
+.card{
+    border: none;
+}
+.content{
+    display: inline;
+    /* float: right; */
+}
+
+.top , .cont{
+    margin-left: -2%;
+
+}
+
+h2{
+    color: #67727e;
+}
+
+ input{
+     margin-top: 2%;
+     border-radius: 0px 
+} 
+/* .search{
+    margin-top: 2%;
+    border-radius: 0px;
+    border: 1px solid black;
+} */
+
+.h2{
+    display: inline;
+}
+
+.container1{
+    width: 89%;
+}
+
+.cont{
+    margin-bottom: 3.5%;
+}
+.black{
+
+   color:black;
+    font-weight: 400;
+}
+    .black1{
+    margin: 22px;
+} 
+
+.hover:hover{
+    background-color: white;
+    color:green;
+    cursor: pointer;
+}
+
+.thirdh2{
+    padding-left: 6%;
+    color:black;
+}
+
+.bottom{
+    color:black;
+    position: absolute;
+    bottom: 2.8125em;
+    background-color: white;
+    opacity: 0.9;
+
+}
+.lbutton{
+    background-color: white;
+    cursor: pointer
+}
+
+.fa-heart , .fa-button , .text{
+    color:green;
+}
+/* 
+.fa-button :hover{
+    background-color: green;
+    color:white;
+}   
+.fa-heart :hover{
+    background-color: green;
+    color:white;
+}    */
+.lbutton:hover{
+    background-color: green;
+    color:white;
+}
+
+.lbutton:hover .text{
+    color:white;
+}
+
+ .lbutton:hover .fa-heart{
+    color:white;
+} 
+
+.footer{
+    text-align: center;
+    padding-top: 1%;
+
+}
+
+.container2{
+margin-left: 8.3%;
+
+}
+
+
+input{
+    width:100%;
+    height: 46px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; 
+    border: 1px solid darkgrey;
+
+}
+
+.search { position: relative;
+border-radius: 1px;
+}
+.search input { text-indent: 30px;
+}
+.search .fa-search { 
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  font-size: 15px;
+    color: darkgrey; 
+
+}
+
+.fa-times { 
+   position: absolute;
+   top: 49%;
+   left: 97%;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background-color: lightgrey;
+    cursor:pointer;
+    font-size: 14px;
+}
+
+a{
+    color:black;
+    /* width: 126.26px; */
+}
+.block1:hover .btn , .block2:hover .btn, .block3:hover .btn{
+color: green;
+background-color: white
+}
+
+.hover{
+    color: black;
+    position: absolute;
+    bottom: 2.8125em;
+    background-color: white;
+    opacity: 0.9;
+}
+@media only screen and (max-width: 750px){
+    .col-4{
+        width:100%;
+    }
+
+    .block1 ,.block3 ,.block2{
+        margin-left:0px;
+    }
+    .lbutton{
+        width:100%;
+    }
+
+    .card-block{
+        width:100%;
+        height:200px;
+        margin-top: 2.5%;
+    }
+    .fa-times , .fa-search{
+         top:37%; 
+        left: 92%;
+    }
+  
+    .container2{
+        margin-left: 0%;
+    }
+    .top2{
+        display:none;
+    }
+    input{
+    width: 100%;
+    }
+   .black{
+    font-size: 27px;
+  }
+  .content{
+    float:right;
+    display: inline;
+}
+
+.card-title{
+    font-size:1.25rem
+}
+.bottom{
+    bottom: 0%;
+}
+}

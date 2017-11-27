@@ -1,0 +1,33 @@
+
+<div class="form-group main">
+    <form [formGroup] = "signUpForm" (ngSubmit) = "signup(signUpForm.value)">    
+      <div class="img-div">
+        <img src="https://d31ebqhycylygn.cloudfront.net/v3/assets/web/logos/logo-h-3f5a5ffaf590a5dcff9ae06f47e7e67f.svg" alt="logo"/>      
+      </div>
+      <div class="form-content">  
+        <div class="form-group">
+          <label for="fname">First Name</label>
+          <input type="text" class="form-control input" id="fname"  placeholder=""  formControlName="fname" required>            
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" class="form-control input"  placeholder="" formControlName="lname" required>            
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="text" id="email" class="form-control input"   placeholder="" formControlName="email" required>            
+        </div>
+        <div class="form-group">
+          <label for="pswd">Password</label>
+          <input type="password" id="pswd" class="form-control input"  placeholder="" formControlName="password" required>            
+        </div>
+        <div class="form-group">
+          <label for="zp">Zip Code</label>
+          <input type="text" id="zp" class="form-control input"  placeholder="" formControlName="zipCode" required>            
+        </div>
+        <button class="btn create-account-btn btn-block input" [disabled]="!signUpForm.valid" >Create Account</button>           
+        <p class="policy-text text-center">By signing up you agree to our <a href="#" style="color:#51af33" >Terms of Use </a>and<a href="#" style="color:#51af33"> Privacy Policy</a>.</p>
+      </div>
+    </form>  
+  </div>
+  

@@ -1,0 +1,30 @@
+ .img-div{
+    width: 60%;
+    margin: 0 auto;
+}
+.form-content{
+    margin-top:15px;    
+}
+.policy-text{
+    font-size:15px;
+    margin-top: 15px;
+} 
+form{
+    background-color: white;
+}
+ body{
+    background-image: url("https://d31ebqhycylygn.cloudfront.net/v3/assets/web/hero_groceries-ba7154fde71c6fa17ace6db2b41f4455.jpg");     background-position: center center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 1px;
+} 
+
+label{
+    font-weight: 300;
+    cursor:pointer;
+}

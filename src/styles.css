@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+/* body{
+    background-image: url(https://d31ebqhycylygn.cloudfront.net/v3/assets/web/hero_groceries-ba7154fde71c6fa17ace6db2b41f4455.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+.input{
+    /* margin-bottom: 10px !important; */
+    width:100% !important;
+    min-height: 46px;
+}
+.input:focus{
+    border-color:#51af33
+}
+.main{
+    background-color: #FCFCFC;
+    /* width: 35%; */
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+@media (max-width: 800px) and (min-width: 501px), (max-width: 1024px) and (min-width: 801px), (min-width: 1025px){
+    .main{
+        max-width:500px;
+    }
+}
+.create-account-btn,.login-btn,.reset-pswd-btn{
+   background-color:  #51af33;
+   color:#fff
+}

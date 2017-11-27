@@ -1,0 +1,23 @@
+<body>
+  <div class="form-group main">
+    <form [formGroup]="loginForm" (ngSubmit)="login(loginForm.value)">
+      <div class="img-div">
+        <img src="https://d31ebqhycylygn.cloudfront.net/v3/assets/web/logos/logo-h-3f5a5ffaf590a5dcff9ae06f47e7e67f.svg" alt="logo"
+        />
+      </div>
+      <div class="form-content">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="text" id="email" class="form-control input" placeholder="" formControlName="email" required>
+        </div>
+        <div class="form-group">
+          <label for="pswd">Password</label>
+          <input type="password" id="pswd" class="form-control input" placeholder="" formControlName="password" required>
+        </div>
+
+        <button class="btn login-btn btn-block input" [disabled]="!loginForm.valid">Log in</button>
+        <p class="text-right"><a href="#" routerLink="/forgetpswd" class="text-info"> Forget Password?</a></p>
+      </div>
+    </form>
+  </div>
+</body>
